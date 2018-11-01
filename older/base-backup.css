@@ -1,0 +1,254 @@
+/*-----------------------------------------------------------------------------------*\
+	#Fonts
+\*-----------------------------------------------------------------------------------*/
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'forque';
+	src: url('../fonts/forque/Forque-webfont.eot');
+	src: local('☺'), url('../fonts/forque/Forque-webfont.woff') format('woff'), url('../fonts/forque/Forque-webfont.ttf') format('truetype'), url('../fonts/forque/Forque-webfont.svg#webfontmmrUNGud') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'JournalRegular';
+	src: url('../fonts/journal/journal-webfont.eot');
+	src: local('☺'), url('../fonts/journal/journal-webfont.woff') format('woff'), url('../fonts/journal/journal-webfont.ttf') format('truetype'), url('../fonts/journal/journal-webfont.svg#webfontxNXoptyW') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SearsTowerRegular';
+	src: url('../fonts/sears-tower/Sears_Tower-webfont.eot');
+	src: local('☺'), url('../fonts/sears-tower/Sears_Tower-webfont.woff') format('woff'), url('../fonts/sears-tower/Sears_Tower-webfont.ttf') format('truetype'), url('../fonts/sears-tower/Sears_Tower-webfont.svg#webfontlFkJUMK3') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('../fonts/chunkfive/Chunkfive-webfont.eot?') format('eot'),
+		 url('../fonts/chunkfive/Chunkfive-webfont.woff') format('woff'),
+		 url('../fonts/chunkfive/Chunkfive-webfont.ttf') format('truetype'),
+		 url('../fonts/chunkfive/Chunkfive-webfont.svg#webfont90E2uSjN') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('../fonts/bebas/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-----------------------------------------------------------------------------------*\
+	#Custom Fonts
+\*-----------------------------------------------------------------------------------*/
+.btn {
+	border-radius: 0;
+}
+
+i {
+	color: #fff;
+	font-size: 60px;
+	text-shadow: 2px 2px 1px #000;
+}
+
+.btn-group {
+	margin-bottom: 20px;
+}
+
+.btn-group a {
+	color: #fff;
+}
+
+.btn-group a:hover {
+	color: #fff;
+}
+
+.btn {
+	border-color: #444;
+	background-image: linear-gradient(#666, #333);
+}
+
+.btn:hover {
+	background-image: none;
+	background: #ccc;
+}
+
+
+.sorter .icon img {
+    width: 15px;
+}
+
+.sorter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sorter span {
+    width: auto;
+    margin-right: 10px;
+    border: none;
+    box-shadow: none;
+}
+
+.sorter span.icon {
+    margin-right: 0;
+}
+
+.sorter span img {
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.performance_table {
+    width: 100%;
+}
+
+.performance_table a {
+    color: #000;
+    text-decoration: none;
+}
+
+.performance_table .headings {
+    background: rgba(50,67,78,.2);
+}
+
+.performance_table .img {
+    background: rgba(236,153,23,.2);
+}
+
+.performance_table .img:hover {
+    background: rgba(236,153,23,.3);
+}
+
+.performance_table .script {
+    background: rgba(87,146,174,.2);
+}
+
+.performance_table .script:hover {
+    background: rgba(87,146,174,.3);
+}
+
+.performance_table .link {
+    background: rgba(102,122,137,.2);
+}
+
+.performance_table .link:hover {
+    background: rgba(102,122,137,.3);
+}
+
+.performance img {
+    width: 100%
+}
+
+
+
+/*-----------------------------------------------------------------------------------*\
+    #NYTimes
+\*-----------------------------------------------------------------------------------*/
+.news_item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.news_item h5 {
+    margin-bottom: 0;
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: 22px !important;
+}
+
+.news_item h5 a {
+    color: #666;
+}
+
+.news_item p {
+    margin: 0;
+    padding: 0 0 5px;
+    color: #666;
+}
+
+.news_item p.byline,
+.news_item p.pub_date {
+    color: #999;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.news_item p.section {
+    color: #999;
+    font-size: 12px;
+}
+
+.media {
+    float: right;
+    width: 150px;
+    margin: 0 0 10px 10px;
+}
+
+.media img {
+    width: 148px;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.media p.caption {
+    padding: 5px 0;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+
+.options {
+    padding: 10px;
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.options label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.options input {
+    margin-bottom: 8px;
+}
+
+
+.share_rank {
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 10px 5px;
+    background-color: rgba(0,0,0,.2);
+    border: 1px solid rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.share_rank p {
+    color: #fff;
+    font-size: 36px;
+    line-height: 30px
+}
+
+
+#map {
+    height: 400px;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+
+
+
+
+
