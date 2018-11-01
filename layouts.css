@@ -23,7 +23,7 @@ html {
     height: 100%;
     color: #222;
     font-family: 'Open Sans', sans-serif;
-    font-size:16px;
+    font-size: 16px;
 }
 
 *, *:before, *:after {
@@ -113,6 +113,31 @@ li a {
     padding: 0.625rem;
 }
 
+[data-theme="home"] {
+    background-color: #333;
+    font-size: 0.875rem;
+}
+
+[data-theme="home"] h3 {
+    margin: 20px 0;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+[data-theme="home"] h4 {
+    margin: 0;
+}
+
+[data-theme="home"] a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+[data-theme="home"] .grid {
+    padding: 0;
+}
+
 /* end index */
 
 [data-theme="lightbox"] {
@@ -147,6 +172,15 @@ article {
     position: relative;
 }
 
+.content-holder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+}
 
 .grid[data-layout="left-rail"] {
     grid-template-columns: [start-1] 300px [end-1 start-2] auto [end-2];
