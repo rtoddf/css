@@ -115,12 +115,12 @@ li a {
 
 [data-theme="home"] {
     background-color: #333;
+    color: #fff;
     font-size: 0.875rem;
 }
 
 [data-theme="home"] h3 {
     margin: 20px 0;
-    color: #fff;
     border-bottom: 1px solid #fff;
 }
 
