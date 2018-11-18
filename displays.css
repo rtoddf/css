@@ -39,9 +39,12 @@ rem sizes:
     text-align: center;
 }
 
-[data-theme="home"] h3 {
+[data-theme="home"] h3,
+[data-theme="home"] h3 a {
+    color: #222;
     font-family: 'Average', serif;
     font-size: 1.5rem;
+    font-weight: normal;
 }
 
 @media (max-width: 480px) {
