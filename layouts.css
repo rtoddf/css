@@ -233,6 +233,14 @@ article {
 	grid-template-columns: repeat(6, [col] 1fr);
 }
 
+[data-col="7"] {
+	grid-template-columns: repeat(7, [col] 1fr);
+}
+
+[data-col="8"] {
+	grid-template-columns: repeat(8, [col] 1fr);
+}
+
 [data-col="4-1-1-1-1"],
 [data-col="1-1-1-1-4"] {
     grid-template-columns: repeat(8, [col] 1fr);
@@ -510,7 +518,6 @@ figcaption {
 
     [data-col="1-2-1"] > article:nth-child(3) {
         grid-column: span 2;
-
     }
 
     [data-col="1-1-2"] > article:nth-child(1),
@@ -538,6 +545,8 @@ figcaption {
     [data-col="3"],
     [data-col="4"],
     [data-col="6"],
+    [data-col="7"],
+    [data-col="8"],
     [data-col="4x2"][data-layout="1-4-1"],
     [data-col="4x2"][data-layout="4-1-4"] {
         grid-template-columns: repeat(1, [col] 1fr);
