@@ -590,3 +590,16 @@ figcaption {
         grid-column: span 1;
     }
 }
+
+/* livinlavidabalmer styles */
+
+figure.rounded {
+    width: 65%;
+    margin: 0 auto;
+}
+
+figure.rounded img {
+    border-radius: 50%;
+    border: 5px solid #dedede;
+    box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.5);
+}
