@@ -666,3 +666,26 @@ header {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+/* banner and centering */
+.flex-banner {
+	display: flex;
+	height: 600px;
+	max-width: 700px;
+	margin: 0 auto 20px;
+	background: #2a2a2a;
+	color: #fff;
+}
+
+.flex-banner>div {
+	width: 75%;
+	margin: auto;
+}
+
+.flex-banner i {
+	display: block;
+	text-align: center;
+	color: #f80;
+	font-size: 204px;
+	text-shadow: 2px 2px 2px #000;
+}
