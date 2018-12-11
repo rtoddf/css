@@ -292,7 +292,7 @@ img {
 /* flexbox */
 .flex-container {
     width: 80%;
-    margin: 0 auto 30px;
+    margin: 0 auto;
 }
 
 .flex-container.first {
@@ -565,9 +565,9 @@ h4 {
         line-height: 32px;
     }
 
-	.flex-container {
+	/* .flex-container {
 	    width: 100%;
-	}
+	} */
 
 	.flex-row {
 	    flex-direction: column;
@@ -629,4 +629,71 @@ h4 {
 	color: #f80;
 	font-size: 204px;
 	text-shadow: 2px 2px 2px #000;
+}
+
+
+
+
+
+/* new stuff */
+.flex-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-row > article,
+.flex-row > div {
+	margin-bottom: 40px;
+}
+
+[data-col="2"] > article,
+[data-col="2"] > div {
+	flex-basis: 48%;
+}
+
+[data-col="3"] > article,
+[data-col="3"] > div {
+	flex-basis: 31%;
+}
+
+[data-col="4"] > article,
+[data-col="4"] > div {
+	flex-basis: 23%;
+}
+
+[data-col="5"] > article,
+[data-col="5"] > div {
+	flex-basis: 18%;
+}
+
+[data-col="2-1-1"] > article:nth-child(1),
+[data-col="2-1-1"] > div:nth-child(1),
+[data-col="1-2-1"] > article:nth-child(2),
+[data-col="1-2-1"] > div:nth-child(2),
+[data-col="1-1-2"] > article:nth-child(3),
+[data-col="1-1-2"] > div:nth-child(3) {
+	flex-basis: 50%;
+}
+
+[data-col="2-1-1"] > article:nth-child(2),
+[data-col="2-1-1"] > div:nth-child(2) ,
+[data-col="2-1-1"] > article:nth-child(3),
+[data-col="2-1-1"] > div:nth-child(3),
+[data-col="1-1-2"] > article:nth-child(1),
+[data-col="1-1-2"] > div:nth-child(1) ,
+[data-col="1-1-2"] > article:nth-child(2),
+[data-col="1-1-2"] > div:nth-child(2),
+[data-col="1-2-1"] > article:nth-child(1),
+[data-col="1-2-1"] > div:nth-child(1) ,
+[data-col="1-2-1"] > article:nth-child(3),
+[data-col="1-2-1"] > div:nth-child(3) {
+	flex-basis: 23%;
+}
+
+@media (max-width: 900px) {
+	[data-col="2-1-1"],
+	[data-col="1-1-2"],
+	[data-col="1-2-1"] {
+		flex-direction: column;
+	}
 }
