@@ -89,3 +89,43 @@ a,
     padding: 0;
     vertical-align: middle;
 }
+
+
+
+/* begin strip */
+.strip img {
+    border: none;
+}
+
+.left-photo {
+    background-color: #fff;
+}
+
+.left-photo h4 {
+    margin: 0 -20px 20px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.left-photo h4.sports {
+	background: #F94613;
+}
+
+.left-photo h4.politics {
+	background: #003264;
+}
+
+.left-photo h4.television {
+	background: #ae0000;
+}
+
+h4.comics {
+	background: #baba71;
+}
+
+.left-photo h4.personalities {
+	background: #6f137d;
+}

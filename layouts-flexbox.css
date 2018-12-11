@@ -117,20 +117,20 @@ ul li a {
 
 
 
-.background-1 {
+/* .background-1 {
 	background: #efefef;
 }
 
 .background-1 li {
 	background: #fff;
-}
+} */
 
 /* tiles */
 .tile {
 	position: relative;
 	margin-left: 2px;
 	margin-bottom: 2px;
-	border: 1px solid rgba(236,124,74,.5);
+	/* border: 1px solid rgba(236,124,74,.5); */
 	overflow: hidden;
 }
 .tile a {
@@ -292,7 +292,11 @@ img {
 /* flexbox */
 .flex-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+}
+
+.flex-container.first {
+	margin-top: 100px;
 }
 
 .flex-row {
