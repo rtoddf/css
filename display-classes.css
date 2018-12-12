@@ -62,11 +62,6 @@ a,
 /* end panels */
 
 /* begin media-container */
-.media-container {
-    padding: 5px 0 30px;
-    background: #222;
-}
-
 .media-container .image-holder {
     margin: 0;
     border: 1px solid rgba(255,255,255,.25);
