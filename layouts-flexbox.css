@@ -636,13 +636,28 @@ h4 {
 
 
 /* new stuff */
-.flex-row {
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container.first {
+	margin-top: 100px;
+}
+
+.grid {
 	display: flex;
 	justify-content: space-between;
 }
 
-.flex-row > article,
-.flex-row > div {
+@media (max-width: 900px) {
+	.grid {
+	    flex-direction: column;
+	}
+}
+
+.grid > article,
+.grid > div {
 	margin-bottom: 40px;
 }
 
