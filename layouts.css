@@ -409,9 +409,9 @@ article {
 
 
 /* image holder */
-figure {
+/* figure {
     margin: 0 0 0.625rem;
-}
+} */
 
 figure .filler {
     display: inline-block;

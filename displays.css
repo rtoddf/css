@@ -659,3 +659,28 @@ a:hover,
     /* margin-top: 12px;
     margin-bottom: 12px; */
 }
+
+/* new stuff */
+/* begin media-container */
+.media-container .image-holder {
+    margin: 0;
+    border: 1px solid rgba(255,255,255,.25);
+}
+
+.media-container .content-holder {
+    display: table;
+    width: 85%;
+    height: auto;
+    min-height: 35px;
+    bottom: -10%;
+    margin: 0 auto;
+    background: rgba(34,34,34,.9);
+    border: 1px solid rgba(255,255,255,.25);
+    text-align: center;
+}
+
+.media-container .content-holder p {
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+}
