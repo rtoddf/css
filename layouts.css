@@ -181,15 +181,14 @@ article {
     position: relative;
 }
 
-.content-holder {
+/* .content-holder {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 5px 10px;
     background: rgba(0,0,0,.5);
     color: #fff;
-}
+} */
 
 .grid[data-layout="left-rail"] {
     grid-template-columns: [start-1] 300px [end-1 start-2] auto [end-2];
