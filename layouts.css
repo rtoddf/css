@@ -76,6 +76,13 @@ li a {
     border-bottom: 1px dotted #999;
 }
 
+pre {
+    padding: 10px;
+    background: #dedede;
+    border-radius: 6px;
+    font-size: 0.875rem;
+}
+
 .ad {
     grid-column-start: 1;
     grid-column-end: 3;
