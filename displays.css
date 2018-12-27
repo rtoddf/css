@@ -694,3 +694,16 @@ a:hover,
     padding: 0;
     vertical-align: middle;
 }
+
+.fading-images [data-image-layout="square"] figure img {
+    transition: none;
+    cursor: auto;
+}
+
+.fading-images [data-image-layout="square"] figure img:hover {
+    width: 102%;
+    height: 102%;
+    max-width: 102%;
+    max-height: 102%;
+    margin: 0;
+}
