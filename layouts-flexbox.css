@@ -307,7 +307,8 @@ img {
 }
 
 .flex-row {
-    display: flex;
+	display: flex;
+	margin-bottom: 40px;
 }
 
 @media (max-width: 480px) {
@@ -319,7 +320,7 @@ img {
 .flex-item {
     flex: 1 1 0;
     position: relative;
-    margin: 20px 0 20px 20px;
+    /* margin: 20px 0 20px 20px; */
 }
 
 div[data-layout="column"] {
@@ -328,7 +329,7 @@ div[data-layout="column"] {
 }
 
 /* all evenly distributed cols */
-.flex-row .flex-item {
+/* .flex-row .flex-item {
     flex: 1 1 0;
     position: relative;
     margin: 20px 0 20px 20px;
@@ -336,7 +337,7 @@ div[data-layout="column"] {
 
 .flex-row .flex-item:last-child {
     margin-right: 20px;
-}
+} */
 
 .flex-item .flex-row .flex-item {
     margin-top: 0;
