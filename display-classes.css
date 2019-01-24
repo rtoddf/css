@@ -158,3 +158,46 @@ h4.comics {
 .jukebox-card .song-info p:nth-child(odd) {
     background: rgba(221,133,253,1);
 }
+
+/* need a better way, but here for now */
+[data-theme="home"] #menu_list a {
+    font-weight: normal;
+}
+
+.instructions {
+    text-align: center;
+    margin: 20px 0 30px;
+    text-align: center;
+}
+
+#menu_list ul {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    display: grid;
+}
+
+#menu_list ul li:nth-child(odd) {
+    border-right: none;
+}
+
+#menu_list ul li:nth-last-child(-n+2) {
+    border-bottom: 1px solid #fff;
+}
+
+#song_list h3 {
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+
+#song_list .jukebox-card .song-artwork {
+    height: 225px;
+}
+
+#song_list .jukebox-card img {
+    width: 100%;
+}
+
+.lyrics {
+    margin: 20px 0;
+}
