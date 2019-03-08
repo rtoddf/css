@@ -1,4 +1,4 @@
-/* html {
+html {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -11,7 +11,8 @@
 }
 
 body {
-	color: #222;
+	color:#fff;
+	background-color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,12 +27,13 @@ p {
 	padding: 0 0 10px;
 }
 
+/* 
 a {
 	color: #222;
 	transition: color .3s ease;
-} */
+}
 
-/* a:hover {
+a:hover {
 	color: #666;
 	text-decoration: none;
 } */
@@ -112,18 +114,6 @@ ul li a {
     font-size: 12px;
     font-style: italic;
 }
-
-
-
-
-
-/* .background-1 {
-	background: #efefef;
-}
-
-.background-1 li {
-	background: #fff;
-} */
 
 /* tiles */
 .tile {
@@ -320,7 +310,7 @@ img {
 .flex-item {
     flex: 1 1 0;
     position: relative;
-    /* margin: 20px 0 20px 20px; */
+    padding: 0 20px;
 }
 
 div[data-layout="column"] {
