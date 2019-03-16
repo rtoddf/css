@@ -318,6 +318,12 @@ div[data-layout="column"] {
     flex-direction: column;
 }
 
+div[data-layout="column"]>div {
+    flex: 1 1 0;
+    position: relative;
+    padding: 0 20px;
+}
+
 /* all evenly distributed cols */
 /* .flex-row .flex-item {
     flex: 1 1 0;
